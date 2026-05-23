@@ -121,3 +121,24 @@ SELECT
 	PRO.Name
 FROM  #TEMPORALPRODUCTO AS PRO 
 CROSS JOIN #TEMPORALSUBCATEGORIA AS SUB
+
+
+
+-- EJERCICIO 
+SELECT * FROM [Person].[Person]
+SELECT * FROM [Sales].[PersonCreditCard]
+SELECT * FROM [Sales].[CreditCard]
+
+SELECT 
+	PER.BusinessEntityID,
+	PER.FirstName AS Nombre,
+	PER.LastName AS Apellidos,
+	CRD.CardType AS TipoTarjeta,
+	CRD.CardNumber AS NumTarjeta,
+	CRD.ExpMonth,
+	CRD.ExpYear
+FROM [Person].[Person] AS PER
+INNER JOIN [Sales].[PersonCreditCard] PTE
+	ON PER.BusinessEntityID=PTE.BusinessEntityID
+INNER JOIN [Sales].[CreditCard] CRD
+	ON PTE.CreditCardID=CRD.CreditCardID
