@@ -37,11 +37,23 @@
           <AssociatedConnUserName />
           <FullPath>03_DML.sql</FullPath>
         </FileNode>
+        <FileNode Name="04_02_JOINS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GPSHMS8\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GPSHMS8\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>04_02_JOINS.sql</FullPath>
+        </FileNode>
         <FileNode Name="04_JOINS.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GPSHMS8\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-GPSHMS8\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04_JOINS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="05_AGREGADOS.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-GPSHMS8\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-GPSHMS8\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>05_AGREGADOS.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
